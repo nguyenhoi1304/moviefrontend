@@ -1,0 +1,55 @@
+.form {
+  padding: 10px 0;
+  background-color: white;
+  color: #000;
+  width: 550px;
+  height: auto;
+  border-radius: 7px;
+  margin: 80px auto;
+}
+
+.searchIcon:hover {
+  cursor: pointer;
+}
+
+.search__title {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15px;
+}
+
+.search__title input {
+  outline: none;
+  border: none;
+  width: 90%;
+}
+hr {
+  border: 1px solid rgba(118, 169, 228, 0.808);
+}
+
+/* sử dụng thuộc tinh overflow ở phần tử cha khi con sử dụng thuộc tính float (clearfix) giúp con nằm trong cha */
+.btn_list {
+  overflow: auto;
+  margin: 25px 30px 20px 0;
+}
+
+.bt_search {
+  margin-left: 30px;
+}
+
+.btn_reset,
+.bt_search {
+  padding: 8px 20px;
+  float: right;
+  background-color: rgb(66, 164, 230);
+  border: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.bt_search:hover,
+.btn_reset:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

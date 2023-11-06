@@ -1,0 +1,5 @@
+.notFoundContainer h1,
+.notFoundContainer h3 {
+  color: red;
+  text-align: center;
+}

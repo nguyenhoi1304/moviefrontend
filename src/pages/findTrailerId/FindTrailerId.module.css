@@ -1,0 +1,37 @@
+.title {
+  color: white;
+  font-size: 1.4rem;
+}
+.container {
+  margin-top: 200px;
+  padding: 20px 30px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+}
+form input {
+  padding: 0 30px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+form button {
+  color: #000;
+  font-size: 1rem;
+  border-radius: 5px;
+  font-weight: 600;
+  outline: none;
+}
+form button:hover {
+  background-color: #ccc;
+  color: white;
+  cursor: pointer;
+}
+
+.message {
+  color: red;
+  text-align: center;
+}
